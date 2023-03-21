@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- biblioteca de constumização -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="art.css">
+    <title>website about Zelda: Link's Awalkening</title>
+</head>
+<body>
+
+    <!-- MENU -->
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo">Programmer</a>
+
+            <!-- criação de opções do menu -->
+            <nav class="navbar">
+                <a href="#home">inicio</a>
+                <a href="#about">sobre</a>
+                <a href="#contact">contato</a>
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+
+
+
+
+    <!-- inicio section  -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>Melk <span>Campos</span></h3>
+                <a href="#contact" class="btn">entre em contato</a>
+            </div>
+
+            <div class="image">
+                <img src="./images/programmer3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <!-- detalhes section -->
+
+    <section class="details">
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="content">
+                    <h3>Front-end</h3>
+                    <p>designer inteligente</p>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="content">
+                    <h3>Formação EBAC</h3>
+                    <p>curso full stack java</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3>Ilustrador</h3>
+                    <p>desenhos digitais</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3>Javascript</h3>
+                    <p>react e node.js</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- sobre section  -->
+
+    <section class="about" id="about">
+
+        <div class="row">
+            <div class="image">
+                <img src="./images/programmer5.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Porque contratar esse programador ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima totam quod.</p>
+
+                <a href="#contact" class="btn">contratar serviço</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- contatos section  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>Me </span>Contrate!</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./images/programmer8.png" alt="">
+            </div>
+
+            <form action="" method="post">
+
+                <span>seu nome</span>
+                <input type="text" required placeholder="digite seu nome completo" maxlength="50" name="name" class="box">
+            
+                <span>seu email</span>
+                <input type="email" required placeholder="digite um email valido" maxlength="50" name="name" class="box">
+
+                <span>seu numero</span>
+                <input type="number" required placeholder="digite seu numero de telefone" max="" min="0"
+                name="name" class="box" onkeypress="if(this.value.lenght == 10) return false">
+
+                <span>Selecione seu genero</span>
+                <div class="radio">
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">masculino</label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">feminino</label>
+                </div>
+                <input type="submit" value="manda mensagem" name="send" class="btn">
+            </form>
+        </div>
+    </section>
+
+
+    <!-- rodape section -->
+        <footer class="footer">
+
+            <section>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-youtube"></a>
+                    </div>
+
+                    <div class="credit">&copy; copyright 2023 por Melk Campos - curso EBAC | Todos os direitos são reservados</div>
+            </section>
+        </footer>
+
+    <!-- javascript code -->
+    <script src="/index.js"></script>
+</body>
+</html>
